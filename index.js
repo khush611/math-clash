@@ -41,7 +41,7 @@ let gameOver = () => {
     }
 
     for(let i=0; i<columnSize; i++) {
-        if(grid[rowSize - 1][i] !== ""){
+        if(grid[rowSize - 1][i].value !== ""){
             return true;
         }
     }
